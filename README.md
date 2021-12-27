@@ -1,6 +1,6 @@
 # <p align="center"> Node ToDo  API</p>
 
-API em Node.js com Typescript com um CRUD para atualizar lista de tarefas.
+API em Node.js/Typescript com um CRUD para manipular lista de tarefas.
 Temos uma autenticação com token JWT que deverá ser gerado pela rota login e será exigido para acesso as demais rotas.
 <hr>
 
@@ -22,6 +22,14 @@ Temos uma autenticação com token JWT que deverá ser gerado pela rota login e 
     ENDPOITS<br><br>
   
     http://127.0.0.1:4000/login
-  
+    
+    
+    ![login](https://user-images.githubusercontent.com/61060100/147506297-16da70fd-e19c-4132-b646-7a92c915d432.png)
+
     <br>Para ter permissão as demais rotas é necessário enviar o parâmetro <strong>Authorization</strong> no Header, com o valor Bearer+Token.<br>
-    Ex: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQwMzE1MTc3fQ.cf4XaoeYGn5IkPWOyjwtw8-orVtrWWnEZvdlN1PmBDA
+    
+    ![Listar](https://user-images.githubusercontent.com/61060100/147506317-8b79661b-33cb-49fd-b015-1e5b5d6c882c.png)
+    ![Nova tarefa](https://user-images.githubusercontent.com/61060100/147506364-db42e861-485c-4283-8bdf-80c781ee1a00.png)
+    ![Atualizando tarefa](https://user-images.githubusercontent.com/61060100/147506325-52aed179-0e12-4705-892e-e5b5eeb26be3.png)
+    ![Deletando tarefa](https://user-images.githubusercontent.com/61060100/147506377-ee210d1a-640a-48f4-834c-fd33576c6787.png)
+
