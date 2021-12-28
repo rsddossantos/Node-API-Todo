@@ -10,7 +10,7 @@ Temos uma autenticação com token JWT que deverá ser gerado pela rota login e 
 - Atualizar as dependências:<br><br>
   <code>npm install</code>
   <br><br>
-- Criar na raiz do projeto o arquivo <strong>.env</strong> com os seguintes parâmetros:<br><br>
+- Por tratar-se de um sistema simples para estudos, o arquivo <strong>.env</strong> foi adicionado. Deverá ser editado para alterar credenciais de seu banco e socket da url:<br><br>
   
     PORT=4000 --socket desejado<br>
     PG_DB=postgres --nome do banco<br>
