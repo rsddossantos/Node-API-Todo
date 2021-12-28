@@ -19,7 +19,7 @@ Temos uma autenticação com token JWT que deverá ser gerado pela rota login e 
     PG_PORT=5432 --porta do banco<br>
     JWT_SECRET=1234 --secret para geração do JWT<br><br><hr>
   
-    ENDPOITS<br><br>
+    ENDPOINTS<br><br>
   
     http://127.0.0.1:4000/login
     
